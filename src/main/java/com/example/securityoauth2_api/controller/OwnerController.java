@@ -20,4 +20,9 @@ public class OwnerController {
     public List<Owner> findAllUser(){
         return repository.findAll();
     }
+
+    @GetMapping("/user")
+    public Owner findById(Long id){
+        return repository.findById(id).get();
+    }
 }

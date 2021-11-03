@@ -3,3 +3,5 @@
 2. Auth Server에서 토큰을 발급받은 후 postman으로 테스트 진행한다.
    Authorization - Type - Bearer Token
 
+localhost:8083/v1/users
+localhost:8083/v1/user?id=1
