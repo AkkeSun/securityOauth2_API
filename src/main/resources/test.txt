@@ -8,4 +8,4 @@ localhost:8083/v1/user?id=1?access_token=[토큰값]
 
 2. header에 데이터주기
 Key : Authorization
-Value : Bearer 토큰값
+Value : bearer 토큰값
