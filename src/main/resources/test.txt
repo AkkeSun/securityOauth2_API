@@ -1,7 +1,11 @@
 
-1. Auth Server에서 가져오고자 하는 데이터의 Entity, repo를 생성한다.
-2. Auth Server에서 토큰을 발급받은 후 postman으로 테스트 진행한다.
-   Authorization - Type - Bearer Token
+Auth Server에서 가져오고자 하는 데이터의 Entity, repo를 생성하고 Token을 발급받는다
 
-localhost:8083/v1/users
-localhost:8083/v1/user?id=1
+데이터 가져오는 방법
+1. param으로 데이터 주기
+localhost:8083/v1/user?id=1?access_token=[토큰값]
+
+
+2. header에 데이터주기
+Key : Authorization
+Value : Bearer 토큰값
